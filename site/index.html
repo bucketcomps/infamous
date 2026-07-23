@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The public-safe living dossier for the clean-room inFAMOUS native PC rebuild.">
+  <meta name="theme-color" content="#090d0e">
+  <title>inFAMOUS native rebuild ⚡ public dossier</title>
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div class="alert">⚠ public dossier · static snapshot 2026-07-23 · no game data lives here</div>
+
+  <header class="site-header shell">
+    <a class="brand" href="./" aria-label="inFAMOUS native rebuild home">
+      <span class="bolt" aria-hidden="true">bolt</span>
+      inFAMOUS // native rebuild
+    </a>
+    <nav aria-label="Project navigation">
+      <ul>
+        <li><a href="./" aria-current="page">Status</a></li>
+        <li><a href="devlog/">📓 Devlog</a></li>
+        <li><a href="roadmap/">🧭 Roadmap</a></li>
+        <li><a href="method/">🧪 Method</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div>
+        <p class="kicker">BCUS-98119 // preservation circuit</p>
+        <h1 id="hero-title">Rebuild the <span class="ghost">current.</span></h1>
+        <p class="lede">Turning the 2009 PlayStation 3 game back into readable, verifiable source and a native PC build—without shipping the game, its assets, or its keys.</p>
+        <div class="buttons">
+          <a class="button" href="devlog/">Read the devlog →</a>
+          <a class="button" href="https://github.com/bucketcomps/infamous">Public repository ↗</a>
+          <a class="button live" data-status="proposed" href="https://live.decomp.deucebucket.com/infamous" aria-label="Proposed live endpoint, not cut over">📡 proposed live // not cut over</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Current project truth">
+        <span class="stamp">truth on the wall // 2026-07-23</span>
+        <h2>⚡ First frame is not the finish line.</h2>
+        <p>The renderer is <strong>4 of 13</strong> checklist gates in. There are <strong>zero draws, flips, captures, or verified frames</strong>. Playable still means real gameplay with working save and load.</p>
+      </aside>
+    </section>
+
+    <div class="divider" aria-hidden="true"></div>
+
+    <section class="section shell" id="status" aria-labelledby="status-title">
+      <header class="section-head">
+        <div>
+          <p class="kicker">measured snapshot</p>
+          <h2 id="status-title">No percentage theater.</h2>
+        </div>
+        <p class="section-intro">Every number keeps its own denominator and meaning. Fallback coverage, source proof, graphics work, save checks, and model accuracy are not mixed into one fake completion bar.</p>
+      </header>
+      <ul class="metrics" aria-labelledby="status-title">
+        <li class="metric"><span class="stamp">🖥️ renderer</span><span class="value">4 / 13</span><small>first-frame checklist gates complete</small></li>
+        <li class="metric zero"><span class="stamp">🎞️ proof</span><span class="value">0</span><small>verified renderer frames</small></li>
+        <li class="metric"><span class="stamp">🧬 fallback</span><span class="value">20,298</span><small>inventoried functions with runnable lifted coverage; not clean-source proof</small></li>
+        <li class="metric"><span class="stamp">💾 save / load</span><span class="value">4 / 34</span><small>subsystem checks represented; no end-to-end gameplay cycle yet</small></li>
+        <li class="metric"><span class="stamp">🎨 art readiness</span><span class="value">98.1%</span><small>texture decode across 15,437 records</small></li>
+        <li class="metric"><span class="stamp">🤖 ArcEndian Fast</span><span class="value">18 / 75</span><small>canonical verified benchmark; zero accepted into source from the current conduit</small></li>
+      </ul>
+      <p class="honesty"><strong>Honest hold:</strong> current graphics work remains before guest rendering. Save structures have meaningful native coverage, but the final gameplay save/load claim is not earned.</p>
+    </section>
+
+    <section class="section shell" id="tracks" aria-labelledby="tracks-title">
+      <header class="section-head">
+        <div>
+          <p class="kicker">parallel workfronts</p>
+          <h2 id="tracks-title">Two tracks. One game.</h2>
+        </div>
+        <p class="section-intro">The renderer makes it playable. Source recovery makes it moddable. Neither gets to pretend the other is finished.</p>
+      </header>
+      <div class="tracks">
+        <article class="track" data-mark="R">
+          <span class="stamp">⚡ playable track</span>
+          <h3>Clean-room graphics</h3>
+          <p>A native consumer for the original RSX command stream is advancing through a 13-gate checklist.</p>
+          <ul>
+            <li>4 gates complete</li>
+            <li>7 infrastructure gates built</li>
+            <li>0 draws, flips, captures, or frames</li>
+            <li>Next proof: reach the first real draw without widening claims</li>
+          </ul>
+        </article>
+        <article class="track" data-mark="C">
+          <span class="stamp">🧬 moddable track</span>
+          <h3>Readable source</h3>
+          <p>Lifted fallback keeps the full inventory runnable while functions are replaced one by one with reviewed C.</p>
+          <ul>
+            <li>Binary behavior remains the ground truth</li>
+            <li>Matched, verified, and snapshot-verified stay distinct</li>
+            <li>Compiler and behavioral oracles gate promotion</li>
+            <li>Model output proposes; it never self-approves</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section shell" aria-labelledby="route-title">
+      <header class="section-head">
+        <div>
+          <p class="kicker">the circuit spine</p>
+          <h2 id="route-title">Route to playable</h2>
+        </div>
+        <p class="section-intro">Six visible gates keep a first frame, a boot, and a playable build from collapsing into the same claim.</p>
+      </header>
+      <ol class="circuit" aria-labelledby="route-title">
+        <li class="gate done"><b>01 // Lifted</b><small>Runnable fallback foundation is complete.</small></li>
+        <li class="gate current"><b>02 // Source</b><small>Readable verified C is being banked function by function.</small></li>
+        <li class="gate current"><b>03 // Graphics</b><small>Native renderer is at 4 of 13 first-frame gates.</small></li>
+        <li class="gate current"><b>04 // Model</b><small>Candidate proposer remains behind compiler and oracle gates.</small></li>
+        <li class="gate"><b>05 // Saves</b><small>Subsystem work exists; gameplay cycle remains queued.</small></li>
+        <li class="gate"><b>06 // Playable</b><small>Real gameplay plus working save and load.</small></li>
+      </ol>
+      <div class="buttons"><a class="button" href="roadmap/">Open the full roadmap →</a></div>
+    </section>
+
+    <section class="section shell" aria-labelledby="log-title">
+      <header class="section-head">
+        <div>
+          <p class="kicker">latest dispatches</p>
+          <h2 id="log-title">Field log</h2>
+        </div>
+        <p class="section-intro">Short public-safe updates. Holds are part of the record, not embarrassing footnotes.</p>
+      </header>
+      <div class="log-list">
+        <article class="log-entry">
+          <div><time datetime="2026-07-23">2026-07-23</time><span class="tag">MODEL</span></div>
+          <div><h3>Retained C clears syntax and ABI shape</h3><p>The exact candidate passed two AST and two strict C11 / reviewed-ABI checks. Its first oracle call stopped on a stale authority schema, so it earns no behavioral result.</p></div>
+        </article>
+        <article class="log-entry">
+          <div><time datetime="2026-07-23">2026-07-23</time><span class="tag">RENDERER</span></div>
+          <div><h3>Graphics probe exposes a recipe-context bug</h3><p>Namespace rehearsal passed and the exact checkpoint was selected. The data-only probe stopped before restore because instance creation happened outside its required handler context.</p></div>
+        </article>
+        <article class="log-entry">
+          <div><time datetime="2026-07-23">2026-07-23</time><span class="tag">ORACLE</span></div>
+          <div><h3>External snapshot specifications supported</h3><p>The verifier gained exact-hash external snapshot specifications with 38 passing tests. The first execution packet remains held until its one-use and evidence-separation controls are complete.</p></div>
+        </article>
+      </div>
+      <div class="buttons"><a class="button" href="devlog/">All public dispatches →</a></div>
+    </section>
+
+    <section class="section shell">
+      <div class="callout">
+        <p class="kicker">🔒 bring-your-own-dump boundary</p>
+        <h2>No game in this repo.</h2>
+        <p>This dossier contains only original site code and public-safe prose. It ships no ROM, executable, key, decrypted data, screenshot, texture, model, video, audio, or private evidence. Preservation work requires a legally obtained copy supplied outside Git.</p>
+        <div class="buttons">
+          <a class="button" href="method/">Read the method →</a>
+          <a class="button" href="https://github.com/bucketcomps">BucketComps org ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <span>inFAMOUS native rebuild // public snapshot 2026-07-23</span>
+    <span><a href="https://bucketcomps.github.io/">← BucketComps</a> · CC0 site source</span>
+  </footer>
+</body>
+</html>
