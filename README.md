@@ -10,3 +10,7 @@ copies, credentials, or live telemetry.
 
 The themed dossier is being prepared on a review branch before any Pages
 deployment.
+
+## Status
+
+See [docs/STATUS.md](docs/STATUS.md) for the sanitized public scoreboard.
