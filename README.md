@@ -67,3 +67,7 @@ assets, keys or firmware, and nothing ever will.
 
 inFAMOUS is a trademark of Sony Interactive Entertainment. This is an
 independent fan project by DeuceBucket, not affiliated with Sony or Sucker Punch.
+
+## Community
+
+Questions, PS3 owners who want to help, or just following along: [join us on Discord](https://discord.gg/SJjcX5Yfuy).
