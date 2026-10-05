@@ -38,6 +38,19 @@ The plan is to release a recompiled build here first, then replace it piece by
 piece with decompiled source as each part is proven and tested. More people
 testing on more machines is how the bugs get found.
 
+## Got a PS3? Help out
+
+If you have a PS3 on HEN or CFW, one run of our
+[hardware probe](https://github.com/bucketcomps/ps3-hwprobe) records exactly
+what your console's Cell CPU returns for instructions that emulators still guess
+at. It takes about 20 minutes and writes one file.
+
+- [Download the probe (`cell-hwprobe.gnpdrm.pkg`, v1)](https://github.com/bucketcomps/ps3-hwprobe/releases/latest)
+- [How to run it](https://github.com/bucketcomps/ps3-hwprobe#run-it)
+- [Send your results](https://github.com/bucketcomps/ps3-hwprobe/issues/new?template=submit-results.yml)
+
+Every model helps: fat, slim and super slim.
+
 ## Related public tools
 
 - [xpp-tool](https://github.com/deucebucket/infamous-xpp-textures): extract,
