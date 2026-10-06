@@ -105,5 +105,26 @@
   A fan project by DeuceBucket. <a href="https://discord.gg/SJjcX5Yfuy">Join us on Discord</a>. Game imagery &copy; its owners; shown as fan commentary.
   <div class="evidence"><span>Evidence-bound</span><span>No gameplay claim</span><span>Bring your own disc</span></div>
 </footer>
+<script>
+/* Auto-refresh: every 2 minutes, ask the server whether this page changed
+   (Last-Modified / ETag). Reload only when it did, keeping the scroll position. */
+(function () {
+  var KEY = 'infamous-scroll';
+  try { var y = sessionStorage.getItem(KEY); if (y !== null) { sessionStorage.removeItem(KEY); window.addEventListener('load', function () { window.scrollTo(0, +y); }); } } catch (e) {}
+  var stamp = null;
+  function check() {
+    if (document.hidden) return;
+    fetch(location.href, { method: 'HEAD', cache: 'no-store' }).then(function (r) {
+      var s = r.headers.get('etag') || r.headers.get('last-modified');
+      if (!s) return;
+      if (stamp === null) { stamp = s; return; }
+      if (s !== stamp) { try { sessionStorage.setItem(KEY, String(window.scrollY)); } catch (e) {} location.reload(); }
+    }).catch(function () {});
+  }
+  check();
+  setInterval(check, 120000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) check(); });
+})();
+</script>
 </body>
 </html>
