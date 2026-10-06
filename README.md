@@ -27,8 +27,7 @@ so a rewritten function either produces the same bytes or it doesn't.
   Vulkan. It has drawn the Sony and Sucker Punch splash screens from the game's
   own draw calls.
 - **Real hardware where it matters.** Some Cell instructions only promise an
-  approximate answer. We measured what a real PS3 returns (844,920 results from
-  a retail CECHL01) and model those exact bits.
+  approximate answer. We use measurements from real PS3 consoles and model those exact bits.
 
 ## What's in this repo
 
@@ -38,18 +37,9 @@ The plan is to release a recompiled build here first, then replace it piece by
 piece with decompiled source as each part is proven and tested. More people
 testing on more machines is how the bugs get found.
 
-## Got a PS3? Help out
+## Hardware measurements
 
-If you have a PS3 on HEN or CFW, one run of our
-[hardware probe](https://github.com/bucketcomps/ps3-hwprobe) records exactly
-what your console's Cell CPU returns for instructions that emulators still guess
-at. It takes about 20 minutes and writes one file.
-
-- [Download the probe (`cell-hwprobe.gnpdrm.pkg`, v1)](https://github.com/bucketcomps/ps3-hwprobe/releases/latest)
-- [How to run it](https://github.com/bucketcomps/ps3-hwprobe#run-it)
-- [Send your results](https://github.com/bucketcomps/ps3-hwprobe/issues/new?template=submit-results.yml)
-
-Every model helps: fat, slim and super slim.
+We have a hardware probe that we ran on real PS3 consoles. It is not public.
 
 ## Related public tools
 
