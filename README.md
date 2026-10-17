@@ -9,6 +9,7 @@ matching decompilation possible: the original compiler can be pinned and rerun,
 so a rewritten function either produces the same bytes or it doesn't.
 
 **Live status and devlog:** <https://bucketcomps.github.io/infamous/>
+**Platform:** <https://decomp.deucebucket.com/>
 **Wiki:** <https://github.com/bucketcomps/infamous/wiki>
 
 ## How it works
